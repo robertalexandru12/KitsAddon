@@ -104,23 +104,6 @@ public class Main extends JavaPlugin {
 			e.printStackTrace();
 		}
     	
-    	/*try
-    	{
-          statement = conn.createStatement();
-           String tabel = "SELECT WINS FROM BedWars WHERE name="Robyyyyyy";
-    		//String tabel = "CREATE TABLE robyyyyyy(NAME varchar(255), KILLS int)";
-    	
-    		        statement.executeUpdate(tabel);
-    		        statement.close();
-    		        
-
-    	} 
-    	catch (SQLException e){
-    	    System.err.println(e);
-    	    */
-    }
-    
-   // getCommand("bwspec").setExecutor(new Spectate());
     getCommand("bwfind").setExecutor(new Find());
     
   }
