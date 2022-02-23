@@ -1,0 +1,13 @@
+Kit Selector:
+  slot: 5
+  displayname: '&aKit Selector'
+  lore:
+    - '&7Selecteaza-ti un kit'
+  material: COMPASS
+Kits:
+  default:
+    displayname: '&bDefault'
+    lore:
+      - '&7Click stanga ca sa selectezi acest kit'
+    material: IRON_SWORD
+KitSelectat: '&aKit selectat cu succes'

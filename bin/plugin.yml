@@ -1,0 +1,10 @@
+name: KitsAddon
+version: 1.0
+api-version: 1.16
+main: me.cristike.kitsaddon.Main
+author: Addicted2Team
+depend: [PlayerPoints]
+commands:
+   bwfind:
+      description: Aceasta este comanda principala.
+      usage: /<command> 
